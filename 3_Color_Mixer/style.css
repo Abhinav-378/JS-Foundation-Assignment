@@ -1,0 +1,19 @@
+.box{
+    text-align: center;
+    border:2px solid black;
+    border-radius: 25px;
+    padding: 20px;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    font-size: 25px;
+}
+input{
+    padding: 5px;
+}
+button{
+    font-size: 18px;
+    padding: 15px;
+}
+div{
+    margin:15px;
+}
