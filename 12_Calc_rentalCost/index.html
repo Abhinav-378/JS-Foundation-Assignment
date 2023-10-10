@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calci</title>
+</head>
+<body>
+    <div id="box" style="display: flex;justify-content: center;align-items: center;gap:20px;flex-direction: column;">
+        <h1>Rental cost Calculator</h1>
+
+        <div>
+            <label for="days">Enter no.of days car rented: </label>
+            <input type="number" name="days" id="days">
+        </div>
+        <div >
+            <h2>Type: </h2>
+            <input type="radio" name="type" id="eco" value="eco">
+            <label for="eco">Economy</label>
+            <input type="radio" name="type" id="mid" value="mid">
+            <label for="mid">MidSize</label>
+            <input type="radio" name="type" id="lux" value="lux">
+            <label for="lux">Luxury</label>
+        </div>
+        <button onclick="res()">Calculate</button>
+        <div id="result">
+
+        </div>
+    </div>
+    <script src="./script.js">
+        
+    </script>
+</body>
+</html>
