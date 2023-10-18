@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#scrollBar{
+    background-color: rgb(184, 184, 184);
+    height: 20px;
+    width: 100%;
+    position: fixed;
+}
+
+#progressBar{
+    background-color: rgb(50, 158, 26);
+    height: 20px;
+    width: 0%;
+}
